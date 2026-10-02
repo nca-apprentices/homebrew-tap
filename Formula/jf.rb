@@ -1,25 +1,25 @@
-# Written by jjforge's release workflow for v0.2.1. Edits here are lost.
+# Written by jjforge's release workflow for v0.2.2. Edits here are lost.
 class Jf < Formula
   desc "Command-line client for jjforge, a forge for Jujutsu repositories"
   homepage "https://jjforge-docs.nca-apprentices.dev"
-  version "0.2.1"
+  version "0.2.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.1/jf-aarch64-apple-darwin"
-      sha256 "488a3e9f5e5045776c8bb75c9794d2eb674a82d0e25ea8783ad9eaaa143bcfa4"
+      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.2/jf-aarch64-apple-darwin"
+      sha256 "d3930f165c615aee0e7b32948ad194a593b4e9c7b4bcd8bb99f09d32cf2bfe06"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.1/jf-aarch64-unknown-linux-gnu"
-      sha256 "c5adb92ae72af0def6d1a46de9dcb3950295d481c7e5d73e05834ffe27d2ea1b"
+      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.2/jf-aarch64-unknown-linux-gnu"
+      sha256 "a550709e083d95c9ccbeefb26a56bb898bebd75bb2c307bf8e05a68c9b79dc49"
     end
     on_intel do
-      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.1/jf-x86_64-unknown-linux-gnu"
-      sha256 "e8a0960face4bf3c7c35f81215ad295a7cb4aebdfdca032ba541e9d15b9cfefd"
+      url "https://github.com/nca-apprentices/jjforge/releases/download/v0.2.2/jf-x86_64-unknown-linux-gnu"
+      sha256 "9bcb599b2c0c94186e3c5068abd23ce4c0369bdf9a3721c3235838dbb8a225cc"
     end
   end
 
